@@ -1,0 +1,122 @@
+/* -- IMPORTS FONTS --  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* -- VARIABLES --  */
+
+/* -- RESET --  */
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+/* -- BASIC STYLE --  */
+/* nav {
+    background-color: #f0f0f0;
+} */
+
+/* -- MOBILE --  */
+header {
+    height: 100%;
+}
+
+nav {
+    width: 80px;
+    height: calc(100% - 80px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 40px;
+    padding-top: 0;
+    transition: all 1s;
+}
+
+nav:hover {
+    width: 300px;
+    height: calc(100% - 80px);
+    transition: all 1s;
+}
+
+nav:hover div {
+    margin-left: 0;
+    transition: all 1s;
+}
+
+nav div {
+    font-size: 4em;
+    margin: 40px 0;
+    margin-left: -400px;
+    transition: all 1s;
+}
+
+nav div:first-child {
+    margin-left: 0
+}
+
+#logo,
+#menu {
+    width: 80px;
+}
+
+#logo {
+    margin-left: calc(50% - 40px);
+    margin-top: 40px;
+}
+
+#menu {
+    margin-top: 0;
+}
+
+/* -- DESKTOP --  */
+@media only screen and (min-width: 1200px) {
+    #menu {
+        display: none;
+    }
+
+    #logo {
+        width: 40px;
+        margin: 0;
+        margin-left: 40px;
+    }
+
+    header {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav {
+        position: relative;
+        width: auto;
+        transition: none;
+        display: flex;
+        padding: 0;
+        transition: 0;
+
+    }
+
+    nav div {
+        margin: 40px;
+        font-size: 1em;
+        font-weight: bold;
+    }
+
+    nav:hover {
+        width: auto;
+        height: auto;
+        transition: none;
+    }
+
+    nav:hover div {
+        margin-left: 40px;
+        transition: none;
+    }
+
+    nav:hover div:first-child {
+        margin: 20px;
+    }
+}
