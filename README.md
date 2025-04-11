@@ -1,21 +1,21 @@
-### README - java-menu-interativo
+# Menu Interativo - HTML, CSS e JavaScript 🖱️
 
-# Java - Menu Interativo 📋
-
-Projeto simples em Java que apresenta um menu interativo no terminal, permitindo a escolha de diversas opções simulando um sistema de navegação de funcionalidades.
+Projeto simples utilizando HTML, CSS e JavaScript para criação de um menu interativo em páginas web, focado em praticar interatividade e design responsivo.
 
 ## ✨ Funcionalidades
 
-- Exibição de menu dinâmico no console
-- Navegação por opções simuladas
-- Interação via entrada do usuário
-- Prática de estrutura condicional e laços de repetição
+- Menu de navegação interativo
+- Efeitos visuais com CSS
+- Responsividade para diferentes tamanhos de tela
+- Interação dinâmica com JavaScript
 
 ## 🛠️ Tecnologias Utilizadas
 
-- Java 17
+- HTML5
+- CSS3
+- JavaScript ES6+
 
 ## 🚀 Como executar o projeto
 
-git clone https://github.com/seu-usuario/java-menu-interativo.git
-cd java-menu-interativo
+git clone https://github.com/seu-usuario/html-css-js-menu-interativo.git
+cd html-css-js-menu-interativo
